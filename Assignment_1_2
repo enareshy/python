@@ -1,0 +1,3 @@
+inputTxt = input("Please enter a word: ")
+txt = inputTxt[::-1]
+print(txt)
