@@ -1,0 +1,16 @@
+def countcase(str):
+    upper = 0
+    lower = 0
+    for char in str:
+        if char.islower():
+            lower +=1
+        elif char.isupper():
+            upper +=1
+        else:
+            pass
+    return (lower, upper)
+
+low, upp = countcase('The quick Brow Fox')
+
+print("Lower case count is : ", low)
+print("Upper case count is : ", upp)
