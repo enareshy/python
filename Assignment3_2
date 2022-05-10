@@ -1,0 +1,7 @@
+def reverse(str1):
+    string = " "
+    for i in str1:
+        string = i + string
+    return string
+str1 = "1234abcd"
+print(reverse(str1)) 
