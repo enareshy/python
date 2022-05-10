@@ -1,0 +1,6 @@
+class Power():
+    def power2n(self,x, n):
+        return x**n
+
+m = Power()
+print(m.power2n(10,2))
