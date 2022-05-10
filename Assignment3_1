@@ -1,0 +1,4 @@
+lst = [8, 2, 3, 0, 7]
+
+b = sum(lst)
+print(b)
